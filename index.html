@@ -2,103 +2,134 @@
     <head>
         <title>Osama Yousef</title>
         <link rel="shortcut icon" type="image/x-icon" href="images/f.png" />
+        <link rel="stylesheet" href="style.css"/>
+
     </head>
     <body>
         <header>
             <nav>
                 <ul>
-                    <li id="home">Home
-                        <ol>
-                            <li>
-                                <a href="#one">Section 1</a>
-                               
-                            </li>
-                            <li>
-                                <a href="#two">Section 2</a>
-                               
-                            </li>
-                            <li>
-                                <a href="#three">section 3</a>
-                            </li>
-                            
-                        </ol>
-                    </li>
-                    <li><a href="#about">About me</a></li>
+                    <li id="home">Home</li>
+                    <li><a href="#about">About</a></li>
                     <li><a href="#contact">Contact</a></li>
                     
                 </ul>
             </nav>
         </header>
-        <hr>
-        <section id="one">
+      
+        <section id="one" class="section-one back-one">
             <div>
                 <h1>Progamming Language</h1>
-                <img src="images/images.jpg"></img>
+                
                 <p>
                     A programming language is a formal language comprising a set of instructions that produce various kinds of output. Programming languages are used in computer programming to implement algorithms. Most programming languages consist of instructions for computers
                 </p>
-                
+                <img src="images/images.jpg"></img>
             </div>
         </section>
-        <hr>
-        <section id="two">
-            <div>
-                <h1>Progamming</h1>
-                <img src="images/download.png"></img>
-                <p>
-                    Computer programming is the process of designing and building an executable computer program to accomplish a specific computing result or to perform a specific task </p>
-                
-            </div>
-        </section>
-        <hr>
-        <section id="three">
+
+    
+ 
+        <section id="three" class="section-one back-twq">
             <div>
                 <h1>Version Control System</h1>
                 
-                <img src="images/v.png"></img>
+                
                 <p>
-                    In software engineering, version control is a class of systems responsible for managing changes to computer programs, documents, large web sites, or other collections of information. Version control is a component of software configuration management</p>
+                    In software engineering, version control is a class of systems responsible for managing changes to computer programs, documents, large web sites, or other collections of information. Version control is a component of software configuration management
+                </p>
+                
+                    <img src="images/v.png"></img>
+            </div>
+        </section>
+    
+        <section id="about" class="section-one back-three">
+            <div>
+                <h1>
+                    About me 
+                </h1>
+                
+                <p>
+                    Incidunt voluptate sit temporibus aperiam. Quia vitae aut sint ullam quis illum voluptatum et. Quo libero rerum voluptatem pariatur nam. Ad impedit qui officiis est in non aliquid veniam laborum. Id ipsum qui aut. Sit aliquam et quia molestias laboriosam. Tempora nam odit omnis eum corrupti qui aliquid excepturi molestiae. Facilis et sint quos sed voluptas. Maxime sed tempore enim omnis non alias odio quos distinctio.
+                </p>
+                <img src="images/i.jpg" alt="">
+            </div>
+        </section>
+     
+
+        <section id="contact">
+            <div class="container">
+                <h1>
+                    Send me Messege
+                </h1>
+                <div class="form-contr">
+                    <form action="#">
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Your Email..">
+
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Your Phone..">
+                    
+                        <label for="country">Country</label>
+                        <select id="country" name="country">
+                            <option value="">-- select country --</option>
+                          <option value="jordan">Jordan</option>
+                          <option value="syria">Syria</option>
+                          <option value="UAE">UAE</option>
+                          <option value="KAS">KSA</option>
+                        </select>
+                      
+                        <input type="submit" value="Submit">
+                      </form>
+                </div>
+
                 
             </div>
         </section>
-        <hr>
-        <section id="about">
-            <h1>
-               About me 
-            </h1>
-            <img src="images/i.jpg" alt="">
-            <p>
-                Incidunt voluptate sit temporibus aperiam. Quia vitae aut sint ullam quis illum voluptatum et. Quo libero rerum voluptatem pariatur nam. Ad impedit qui officiis est in non aliquid veniam laborum. Id ipsum qui aut. Sit aliquam et quia molestias laboriosam. Tempora nam odit omnis eum corrupti qui aliquid excepturi molestiae. Facilis et sint quos sed voluptas. Maxime sed tempore enim omnis non alias odio quos distinctio.
-            </p>
-        </section>
-        <hr>
+        
 
-        <section id="contact">
-            <h1>
-               Contact me
-            </h1>
-            <form  action="">
-                <label>First Name :</label>
-                <input type="text" placeholder="First name"/>
-                <br>
-                <label>Last Name :</label>
-                <input type="text" placeholder="Last name"/>
-                <br>
-                <label>Email :</label>
-                <input type="email"  placeholder="Email"/>
-                <br>
-                <label>Phone :</label>
-                <input type="tel"  placeholder="Phone"/>
-                <br>
-                <label>Message :</label>
-                <br>
-                <textarea cols="50" rows="5"></textarea>
-                <br>
-                <button type="submit" name="Submit">Submit</button>
+        <footer>
+            <div class="footer-newsletter">
+                
+              
+          
+              <div class="footer-top">
+                <div class="container">
+                  <div class="row">
+          
+                    <div class="col-lg-3 col-md-6 footer-contact">
+                      <h4>Contact Me</h4>
+                      <p>
+                        Zarqa , Jordan <br>
+            
+                        <strong>Phone:</strong> +1 5589 55488 55<br>
+                        <strong>Email:</strong> info@example.com<br>
+                      </p>
+          
+                    </div>
+                  </div>
+                </div>
+              </div>
+          
+              <div class="container">
+                <div class="credits">
+                  <!-- All the links in the footer should remain intact. -->
+                  <!-- You can delete the links only if you purchased the pro version. -->
+                  <!-- Licensing information: https://bootstrapmade.com/license/ -->
+                  <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/eterna-free-multipurpose-bootstrap-template/ -->
+                  Designed by <a href="">Osama Yousef</a>
+                </div>
+              </div>
+              <a href="#home">back to top</a>
+        </footer>
 
-            </form>
-        </section>
-        <a href="#home">back to top</a>
+        
 
     </body>
 </html>

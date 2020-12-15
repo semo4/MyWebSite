@@ -1,0 +1,131 @@
+*{
+    padding:10px;
+    margin:0;
+
+}
+
+header{
+    
+    background:  #808080;
+    height:50px;
+}
+nav ul li {
+    position: relative;
+    left: 125px;
+   
+    padding: 15px;
+    margin: 15px;
+
+    font-size: 20px;
+    align-items: center;
+    overflow: hidden;
+
+}
+nav ul a{
+    text-decoration: none;
+    color : black;
+}
+
+
+
+nav ul li{
+    margin : 0 auto;
+    display: inline;
+    padding: 5px;
+}
+
+.section-one{
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+   
+}
+.back-one{
+    background: linear-gradient(to bottom right, #E68A8B, #E5A4FD);
+}
+.back-two{
+    background: linear-gradient(to bottom right, #E68A8B, #E5A4FD);
+}
+.back-three{
+    background: linear-gradient(to bottom right, #E68A8B, #E5A4FD);
+}
+h1{
+    
+    text-align: center;
+    margin: 20px;;
+}
+
+p{
+    justify-content: center;
+    padding: 20px;
+}
+.section-one img
+{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+.form-contr{
+    position: relative;
+   
+    width: 50%;
+    align-items: center;
+    justify-items: center;
+    left: 25%;
+   
+}
+
+
+
+section input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  section input[type=email], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  section input[type=tel], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+section input[type=submit] {
+    width: 100%;
+    background-color: #6D1F98;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  section  input[type=submit]:hover {
+    background-color: #6D1F98;
+  }
+  footer{
+      margin-top: 5px;;
+      height: 150px;
+  }
