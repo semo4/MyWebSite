@@ -63,9 +63,17 @@ function game(){
     }
 
     if (count == 3){
-        alert("you an awseme person thank you ");
+        alert("you an awsome person thank you :) ");
+        var check =  confirm(" do you wont to try again");
+        if( check == true){
+            alert("Let's start again");
+           game();
+       } else{
+           alert( "you don't wont to paly");
+       }
     }
     else{
+      
         var check =  confirm("you have some question with wrong answer, do you wont to try again");
         if( check == true){
             alert("Let's start again");
