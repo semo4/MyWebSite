@@ -1,6 +1,6 @@
 
 
-var g = prompt("enter guess number ?");
+var g = prompt("enter guess number between 25 and 50  ?");
 
 guess(g);
 
